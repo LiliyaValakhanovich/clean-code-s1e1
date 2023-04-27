@@ -17,9 +17,11 @@ body {
 }
 
 @media (max-width:768px) {
+
 .header {
     text-align: center;
 }
+
 }
 
 .main {
@@ -31,7 +33,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .list {
@@ -89,6 +91,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
+
 .new-task {
     width: 318px;
 }
@@ -123,8 +126,6 @@ li > label {
     display: none;
 }
 
-
-
 button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
@@ -143,12 +144,12 @@ button.delete img:hover {
 
 /* Edit Task */
 ul li .task-hidden {
-    display:none
+    display:none;
 }
 
 ul li.incomplited_element_editMode input[type=text] {
     display:inline-block;
-    width:224px
+    width:224px;
 }
 
 ul li.incomplited_element_editMode label {
