@@ -68,7 +68,7 @@ h3 {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.input_text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,7 +81,7 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.task:focus {
     color: #333;
 }
 
@@ -118,10 +118,12 @@ li > label {
     width: 226px;
 }
 
-li >    input[type="text"] {
+.input_text {
     width: 226px;
     display: none;
 }
+
+
 
 button.delete img {
     height: 2em;
