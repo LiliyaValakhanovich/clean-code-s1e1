@@ -119,7 +119,8 @@ li > label {
 }
 
 li >    input[type="text"] {
-    width: 226px
+    width: 226px;
+    display: none;
 }
 
 button.delete img {
